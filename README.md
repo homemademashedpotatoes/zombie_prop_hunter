@@ -22,11 +22,8 @@ zm_target_props_radius 900
 zm_target_props_debug 0
 ```
 
-You can add these to `server.cfg`, e.g.:
-```
-zm_target_props 1
-zm_target_props_radius 1100
-```
+### Singleplayer visibility note
+These cvars are **replicated** and show up in singleplayer. Use `find zm_target` in the console to list them.
 
 ## Notes
 - This addon **does not** make doors/props destructible by itself; it only makes zombies target them. Use it with a destructible-doors/props addon of your choice.
